@@ -915,6 +915,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  z-index: 3;
   margin-left: 1.25rem;
 }
 
@@ -5064,19 +5065,19 @@ body {
 
   .advantages__bg {
     display: block;
-    width: 100%;
+    width: 200%;
     position: absolute;
     top: 50%;
-    left: 0%;
-    -webkit-transform: translate(0%, -40%);
-        -ms-transform: translate(0%, -40%);
-            transform: translate(0%, -40%);
-    height: 106.25rem;
-    border-radius: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -40%);
+        -ms-transform: translate(-50%, -40%);
+            transform: translate(-50%, -40%);
+    height: 93.75rem;
+    border-radius: 50%;
     background: linear-gradient(135deg, #0067AF, #00ACFF);
     opacity: .2;
-    -webkit-filter: blur(218px);
-            filter: blur(218px);
+    -webkit-filter: blur(6.25rem);
+            filter: blur(6.25rem);
   }
 
   .advantages__bg-2 {
