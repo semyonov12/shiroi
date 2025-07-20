@@ -5065,16 +5065,17 @@ body {
     width: 100%;
     position: absolute;
     top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-220%, -40%);
-        -ms-transform: translate(-220%, -40%);
-            transform: translate(-220%, -40%);
+    left: 0%;
+    -webkit-transform: translate(0%, -40%);
+        -ms-transform: translate(0%, -40%);
+            transform: translate(0%, -40%);
     height: 150rem;
     border-radius: 100%;
   }
 
-  .advantages__bg img {
+  .advantages__bg svg {
     height: 100%;
+    width: 100%;
   }
 
   .advantages__bg-2 {
