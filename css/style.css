@@ -625,6 +625,8 @@ body {
 
 .advantages__bg {
   display: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .advantages__bg-2 {
@@ -5069,13 +5071,12 @@ body {
     -webkit-transform: translate(0%, -40%);
         -ms-transform: translate(0%, -40%);
             transform: translate(0%, -40%);
-    height: 150rem;
+    height: 106.25rem;
     border-radius: 100%;
-  }
-
-  .advantages__bg svg {
-    height: 100%;
-    width: 100%;
+    background: linear-gradient(135deg, #0067AF, #00ACFF);
+    opacity: .2;
+    -webkit-filter: blur(218px);
+            filter: blur(218px);
   }
 
   .advantages__bg-2 {
